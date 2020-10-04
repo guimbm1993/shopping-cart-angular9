@@ -31,4 +31,8 @@ export class CartComponent {
     this.items = this.cartService.clearCart();
     this.checkoutForm.reset();
   }
+
+  deleteItem(itemId){
+    this.items.splice(itemId, 1);
+  }
 }

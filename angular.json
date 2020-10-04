@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "shopping-cart-angular9": {
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "shopping-cart-angular9"
+    }
+  },
+  "defaultProject": "shopping-cart-angular9",
+  "cli": {
+    "analytics": "2006b5c8-5a2c-4d98-87cd-2cc0b9cddb79"
+  }
 }
